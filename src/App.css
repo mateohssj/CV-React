@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header-cv{
+    margin: 1rem;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-cv > img{
+    margin: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.header-cv > div > h2{
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
 }
 
-.card {
-  padding: 2em;
+.header-cv > div > ul{
+    display: flex;
+    flex-direction: column;
 }
 
-.read-the-docs {
-  color: #888;
+.header-cv > div > div{
+    display: flex;
+    height: 5rem;
+}
+
+.div-main-DoubleArticle{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.div-main-DoubleArticle > div{
+    background-color: gray;
+    display: flex;    
+    width: 48.3%;
+    margin-left: 1rem;
+    height: 10rem;
+}
+
+.div-main-DoubleArticle > div > div{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-main-DoubleArticle > div > div > ul{
+    margin-top: 0;
 }
