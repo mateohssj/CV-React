@@ -53,3 +53,49 @@ body{
 .div-main-DoubleArticle > div > div > ul{
     margin-top: 0;
 }
+
+.last-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.interest{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 48.4%;
+    margin: 1rem;   
+}
+
+.interest > h2{
+    margin-left: 1rem;
+}
+
+.interest > ul{
+    margin-top: 0;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 48.4%;
+    margin-top: 1rem;   
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.languages > h2{
+    margin-left: 1rem;
+}
+
+.languages > ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.languages > ul > li{
+
+    margin-left: 1rem;
+}

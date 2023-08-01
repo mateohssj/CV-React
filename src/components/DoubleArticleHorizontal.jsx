@@ -5,7 +5,7 @@ function DoubleArticleHorizontal(props) {
     <div className='div-main-DoubleArticle'>
         <div>
             <div>
-                <h2>Interest</h2>
+                <h2>Academic</h2>
                 <ul>
                     <li>{ props.Div1Li1 }</li>
                     <li>{ props.Div1Li2 }</li>
@@ -16,12 +16,10 @@ function DoubleArticleHorizontal(props) {
         </div>
         <div>
             <div>
-            <h2>Languaje</h2>
+            <h2>Skills</h2>
                 <ul>
                     <li>{ props.Div2Li1 }</li>
                     <li>{ props.Div2Li2 }</li>
-                    <li>{ props.Div2Li3 }</li>
-                    <li>{ props.Div2Li4 }</li>
                 </ul>
             </div>
         </div>
